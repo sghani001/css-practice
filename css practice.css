@@ -248,4 +248,51 @@ div.max {
     border: 3px solid black;
 }
 
+/* position */
+
+div.static {
+    position: static;
+    width: 100px;
+    height: 100px;
+    background: lime;
+    border: 3px solid black;
+}
+
+div.relative {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: lime;
+    border: 3px solid green;
+}
+
+div.absolute {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: lime;
+    top: 80px;
+    right: 0;
+    border: 3px solid red;
+}
+
+div.fixed {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background: lime;
+    bottom: 0;
+    right: 0;
+    border: 3px solid pink;
+}
+
+div.sticky {
+    position: sticky;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+    background: purple;
+    border: 3px solid blue;
+}
 
