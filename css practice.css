@@ -1,0 +1,251 @@
+/* syntax */
+/* h1 {
+    background-color: blue;
+} */
+
+
+/* p {
+    color: blue;
+} */
+
+
+/* selectors */
+
+/* p#paragraphid {
+    color: aqua;
+} */
+
+p.classstyle,h1.classstyle {
+    color: rebeccapurple;
+    font-size: 2em;
+}
+
+
+/* colors */
+
+h1#color1 {
+    color: red;
+}
+
+h1#color2 {
+    color: blue;
+}
+
+h1#color3 {
+    color: green;
+}
+
+h1#color4 {
+    color: yellow;
+}
+
+h1#rgb {
+    color: rgb(255, 0, 0);
+}
+
+h1#hex  {
+    color: #ff0000;
+}
+
+h1#hsl {
+    color: hsl(65, 85%, 24%);
+}
+
+
+/* background */
+
+h1#background {
+    background: red;
+    background-color: blue;
+    background-repeat: repeat-x;
+    background-position: left;
+    background-attachment: top;
+    background-image: url(tablebg.jpg);
+}
+
+/* border */
+
+p#border1 {
+    border: dotted;
+}
+
+p#border2 {
+    border: double;
+}
+
+p#border3 {
+    border: solid;
+}
+
+p#border4 {
+    border: dashed;
+}  
+
+p#border5 {
+    border: groove;
+}
+
+p#border6 {
+    border: ridge;
+}
+
+p#border7 {
+    border: inset;
+}
+
+p#border8 {
+    border: outset;
+}
+
+p#border9 {
+    border: none;
+}
+
+p#border10 {
+    border: hidden;
+}
+
+/* margins */
+
+div.margin {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: gray;
+    height: 500px;
+    width: 1000px;
+}
+
+/* padding */
+
+div.padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: gray;
+    height: 100px;
+    width: 200px;
+    
+    /* padding: 100px 100px 100px 100px; */
+}
+
+/* height and width */
+
+div.hw {
+    height: 100px;
+    width: 200px;
+    background-color: red;
+}
+
+/* model box */
+
+div.boxmodel {
+    height: 100px;
+    width: 200px;
+    margin: 100px;
+    padding: 100px;
+    border: 5px solid black;
+}
+
+/* outline */
+
+p.outline1 {
+    outline-style: dashed;
+    outline-color: red;
+    outline-width: 10px;
+    outline-offset: 0cap;
+}
+
+    
+p.outline2 {
+    outline-style: dotted;
+    outline-color: blue;
+    outline-width: 10px;
+}
+
+/* text */
+
+h1#text {
+    color: #ff0000;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-indent: 50px;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    line-height: 2em;
+    white-space: nowrap;
+    text-shadow: 5px 5px 5px grey;
+}
+
+/* font */
+
+body{
+    font-family: Arial;
+}
+
+h1#fonts {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* links */
+
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+/* list */
+
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+/* tables */
+
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* display */
+
+li.display {
+    display: inline;
+}
+
+/* maxwidth */
+
+div.max {
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid black;
+}
+
+
