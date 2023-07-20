@@ -390,3 +390,90 @@ div.center {
     border: 3px solid black;
     padding: 10px;
 }
+
+/* combinators */
+
+/* div p {
+    background: #ff0000;
+}
+
+div > p {
+    background: #00ff00;
+}
+
+div + p {
+    background: #0000ff;
+}
+
+div ~ p {
+    background: #ffff00;
+} */
+
+/* pseudo classes */
+
+div.hover {
+    background: #ff0000;
+    height: fit-content;
+    width: fit-content;
+}
+
+div.hover:hover {
+    background: #00ff00;
+}
+
+/* pseudo element */
+
+p::first-line {
+    color: red;
+}
+
+/* opacity */
+
+img#Googleimg{
+    opacity: 1;
+}
+
+img#Googleimg:hover {
+    opacity: 0.5;
+}
+
+/* attr selector */
+
+a[target]{
+    background: red;
+}
+
+/* forms  */
+
+input[type=text],select {
+    background: gainsboro;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: grey;
+}
+
+div.form{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+}
