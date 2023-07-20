@@ -1,0 +1,43 @@
+/* .flex-con{
+    display: flex;
+    background: dodgerblue;
+    justify-content: center;
+}
+
+.flex-con > div{
+    background: #f1f1f1;
+    width: 200px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 75px;
+
+} */
+
+* {
+    box-sizing: border-box;
+  }
+  
+.flex-con {
+    display: flex;
+    background-color: DodgerBlue;
+ }
+  
+.flex-left{
+    flex: 30%;
+    background-color: green;
+    padding: 20px;
+}
+
+.flex-right{
+    flex: 70%;
+    background-color: blue;
+    padding: 20px;
+}
+
+@media (max-width: 800px) {
+  .flex-left, .flex-right {
+    flex: 100%;
+  }
+}
