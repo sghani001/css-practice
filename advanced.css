@@ -137,3 +137,18 @@ div.animation{
     color: #f00;
 }
 
+body{
+    background: lightgreen;
+}
+
+@media screen and (min-width: 480px){
+    body{
+        background: white;
+    }
+}
+
+@media screen and (min-width: 768px){
+    body{
+        background: lightblue;
+    }
+}
